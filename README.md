@@ -28,6 +28,7 @@ npm install
 # this command only needs execute once unless you upgrade the package in build/webpack.dll.conf.js
 export NODE_ENV=development 
 npm run build:dll
+npm run build:prod
 
 # the dev-server will set proxy table to your backend
 export TARGET=http://Your-backend

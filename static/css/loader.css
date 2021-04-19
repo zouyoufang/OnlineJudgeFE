@@ -127,3 +127,9 @@ body {
 #app-loader .last {
   margin-right: 0;
 }
+@media print {
+    #submit-code{display:none!important}
+    #right-column{display:none!important}
+    #header{display:none!important}
+}
+
